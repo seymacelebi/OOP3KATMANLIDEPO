@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="OOPStok.Admin" %>
+
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">OOP STOK KAYITLARI</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="#"><a href="UrunListesi.Aspx">Ürünler</a></li>
+      <li><a href="Musterilistesi.Aspx">Müşteriler</a></li>
+      <li><a href="Personel.Aspx">Personeller</a></li>
+      <li><a href="WebForm1.Aspx">Departmanlar</a></li>
+      <li><a href="Satis.Aspx">Satışlar</a></li>
+      <li><a href="#">Ayarlar</a></li>
+    </ul>
+  </div>
+</nav>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+  
+
+
+</body>
+</html>
